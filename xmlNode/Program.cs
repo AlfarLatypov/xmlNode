@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using ADMIN.LIB;
+
 
 namespace xmlNode
 {
@@ -23,29 +25,11 @@ namespace xmlNode
         static void Main(string[] args)
         {
 
-            XmlDocument doc = new XmlDocument();
-
-
-
-
-          
-        }
-
-
-        
-        public static void PrintXML(XmlDocument doc)
-        {
-            var root = doc.DocumentElement;
-
-
-
-
+            ServiceProvider sp = new ServiceProvider();
+            //sp.addProvider();
+            sp.EditProvider();
 
         }
-
-
-
-
 
     }
 }

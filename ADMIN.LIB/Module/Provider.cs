@@ -27,7 +27,7 @@ using System.Threading.Tasks;
 
 namespace ADMIN.LIB.Module
 {
-    class Provider
+   public class Provider
     {
       
 
